@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;      
+   }
+
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    overflow-x: hidden;        
+   }
+
+   header{
+    background-color: black;
+    color: wheat;
+    padding: 10px 0;
+    text-align: center;
+   }
+
+   .logo img {
+    margin-top: 10px;
+    width: 220px;
+    height: 220px;
+    /* border-radius: 50%; */
+   }
+
+   .header-text h1 {
+    margin: 0;
+   }
+
+   .header-text p {
+    margin: 5px 0;
+    font-size: 0.9em;
+   }
+
+   .container{
+    /* margin: 50px auto; */
+    background-color: rgb(28, 28, 28);
+    height: auto;
+    min-height: 40vh;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+
+
+   .assiment-box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: width 1s ease;
+ 
+   }
+
+   .assiment-box:hover {
+    width: 200px;
+   }
+
+   .assiment-index {
+    font-size: 40px;
+   }
+
+   .assiment-name {
+        opacity: 0;
+   }
+
+   .assiment-box:hover .assiment-name {
+    opacity: 1;
+   }
+
+   .assiment-box:hover .assiment-index {
+    font-size: 32px;
+   }
+
+   .assiment-name  a {
+    text-decoration: none;
+   }
+
+   footer {
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+   }
+ 
+   .container-dots {
+        display: flex;
+        gap: 12px;           
+     }
